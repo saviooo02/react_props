@@ -1,10 +1,10 @@
 import "./App.css";
-import Greeting from "./components/Greeting";
+import List from "./components/List";
 
 function App() {
   return (
     <div className="App">
-      <Greeting name="Savio Shaji" />
+      <List />
     </div>
   );
 }
