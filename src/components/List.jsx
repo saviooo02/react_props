@@ -4,7 +4,7 @@ function List(){
 
     const Fruits = ["Apple","Orange","Banana","Cherry","Grape"]
     
-    const listItems = Fruits.map(fruit => 
+    const listItems = Fruits.map((fruit) => 
         <li>{fruit}</li>
     )
     return(
